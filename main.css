@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    height:10vh;
+    cursor: url('files/pixelmouse.png'),auto;
+    margin: 0 auto;
+}
+
+.main-container {
+    display:flex;
+    height:100vh;
+    background-color:rgb(0,0,0);
+    width:100vw;
+    flex-direction:column;
+    justify-content:space-between;
+    position:fixed;
+    margin:0;
+}
+
+.top {
+    height:33vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.middle {
+    height:33vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+
+.bottom {
+    height:33vh;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.title {
+    font-size:150px;
+    color:white;
+    font-family: Pixel;
+    animation: blink 3s infinite;
+}
+
+.active {
+    color:white;
+    opacity:1;
+    animation:none;
+}
+
+.button {
+    color:white;
+    font-family: Pixel;
+}
+
+.button:hover {
+    color: gray;
+}
+
+/* here are all the different background colors */
+
+.a {
+    background-color: rgb(0,0,0);
+}
+
+.b {
+    background-color: rgb(8.5,8.5,8.5); 
+}
+
+.c {
+    background-color: rgb(17,17,17); 
+}
+
+.d {
+    background-color: rgb(25.5,25.5,25.5);
+}
+
+.e {
+    background-color: rgb(34,34,34);
+}
+
+.f {
+    background-color: rgb(42.5,42.5,42.5);
+}
+
+.g {
+    background-color: rgb(51,51,51);
+}
+
+.h {
+    background-color: rgb(59.5,59.5,59.5);
+}
+
+.i {
+    background-color: rgb(68,68,68);
+}
+
+.j {
+    background-color: rgb(76.5,76.5,76.5);
+}
+
+.k {
+    background-color: rgb(85,85,85);
+}
+
+.l {
+    background-color: rgb(93.5,93.5,93.5);
+}
+
+.m {
+    background-color: rgb(102,102,102);
+}
+
+.n {
+    background-color: rgb(110.5,110.5,110.5);
+}
+
+.o {
+    background-color: rgb(119,119,119);
+}
+
+.p {
+    background-color: rgb(127.5,127.5,127.5);
+}
+
+.q {
+    background-color: rgb(136,136,136);
+}
+
+.r {
+    background-color: rgb(144.5,144.5,144.5);
+}
+
+.s {
+    background-color: rgb(153,153,153);
+}
+
+.t {
+    background-color: rgb(161.5,161.5,161.5);
+}
+
+.u {
+    background-color: rgb(170,170,170);
+}
+
+.v {
+    background-color: rgb(178.5,178.5,178.5);
+}
+
+.w {
+    background-color: rgb(187,187,187);
+}
+
+.x {
+    background-color: rgb(195.5,195.5,195.5);
+}
+
+.y {
+    background-color: rgb(204,204,204);
+}
+
+.z {
+    background-color: rgb(212.5,212.5,212.5);
+}
+
+.aa {
+    background-color: rgb(221,221,221);
+}
+
+.ab {
+    background-color: rgb(229.5,229.5,229.5);
+}
+
+.ac {
+    background-color: rgb(238,238,238);
+}
+
+.ad {
+    background-color: rgb(246.5,246.5,246.5);
+}
+
+.ae {
+    background-color: rgb(255,255,255);
+}
+
+/* here are all the different pages  */
+.one {
+    font-size:150px;
+}
+
+.two {
+    font-size:120px;
+}
+
+.two {
+    font-size:90px;
+}
+
+.three {
+    font-size:60px;
+}
+
+.four {
+    font-size:30px;
+}
+
+.five {
+    color:gray;
+    font-size:20px;
+}
+
+.six {
+    font-size:100px;
+
+}
+
+.seven {
+    color:black;
+    font-size:200px;
+}
+
+.eight {
+    font-size:30px;
+}
+
+.nine {
+    color:white;
+    font-size:100px;
+
+}
+
+.ten {
+    color:white;
+    font-size:10px;
+
+}
+
+.eleven {
+    font-size:100px;
+}
+
+.twelve {
+    font-size:150px;
+
+}
+
+.thirteen {
+    font-size:200px;
+
+}
+
+.fourteen {
+    font-size:100px;
+}
+
+.fifteen {
+    font-size:400px;
+
+}
+
+.sixteen {
+    font-size:10px;
+
+}
+
+.seventeen {
+    font-size:100px;
+
+}
+
+.eighteen {
+    font-size:50px;
+
+}
+
+.nineteen {
+    font-size:20px;
+
+}
+
+.twenty {
+    font-size:10px;
+
+}
+
+.twentyone {
+    font-size:200px;
+}
+
+.twentytwo {
+    font-size:100px;
+
+}
+
+.twentythree {
+    font-size:50px;
+
+}
+
+.twentyfour {
+    font-size:30px;
+
+}
+
+.twentyfive {
+    font-size:100px;
+
+}
+
+.twentysix {
+    font-size:30px;
+
+}
+
+.twentyseven {
+    font-size:300px;
+}
+
+.twentyeight {
+    font-size:100px;
+
+}
+
+.twentynine {
+    font-size:30px;
+}
+
+.thirty {
+    font-size:150px;
+    color:black;
+}
+
+/* here are all the animations i want to use */
+
+@keyframes blink {
+    0%{
+        opacity:0.8;
+    }
+
+    50% {
+        opacity:0.1;
+    }
+
+    100%{
+        opacity:0.8;
+    }
+}
+
+/* here are all the new fonts i want to use */
+
+@font-face {
+    font-family: "Pixel";
+    src: url("fonts/PublicPixel-rv0pA.ttf");
+    src: url("fonts/PublicPixel-rv0pA.ttf") format('truetype');
+    font-weight:100px;
+    font-style:normal;
+}
+
